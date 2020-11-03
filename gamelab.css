@@ -2,7 +2,7 @@
   width: 100%;
   height: 13px;
   line-height: 13px;
-  color: #c6cacd;
+  color:black;
   font-size: 24px;
   text-align: center;
   cursor: ns-resize;
@@ -122,18 +122,18 @@
   float: left; }
 
 .sliderTrack {
-  stroke: #ebe8f1;
+  stroke: black;
   stroke-width: 4px;
   stroke-linecap: round; }
 
 .sliderKnob {
-  fill: #ddd;
-  stroke: #bbc;
+  fill: rgb(0, 0, 0);
+  stroke: rgb(0, 0, 0);
   stroke-width: 1px;
   stroke-linejoin: round; }
 
 .sliderKnob:hover {
-  fill: #eee; }
+  fill: rgb(0, 0, 0); }
 
 /* Sprited icons. */
 .pause-btn {
@@ -183,7 +183,7 @@
   -webkit-touch-callout: none;
   position: relative;
   z-index: 1;
-  background-color: white;
+  background-color: rgb(8, 0, 0);
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -259,36 +259,36 @@
   position: absolute;
   width: 0px;
   height: 0px;
-  border: 76px solid #FFFFFF;
+  border: 76px solid rgb(150, 103, 103);
   border-radius: 76px;
-  box-shadow: 1px 1px 1px 0 #7F7F7F; }
+  box-shadow: 1px 1px 1px 0 #696464; }
 
 #studio-dpad-cone {
   position: absolute;
   margin: 2px;
   width: 0px;
   height: 0px;
-  border: 74px solid #9C9C9C;
+  border: 74px solid #b80000;
   border-radius: 74px; }
   #studio-dpad-cone.left {
-    border-top-color: #FFD080;
+    border-top-color: #00d9ff;
     transform: rotate(270deg); }
     #studio-dpad-cone.left.down {
       transform: rotate(220deg); }
     #studio-dpad-cone.left.up {
       transform: rotate(320deg); }
   #studio-dpad-cone.right {
-    border-top-color: #FFD080;
+    border-top-color: #00c3ff;
     transform: rotate(90deg); }
     #studio-dpad-cone.right.down {
       transform: rotate(140deg); }
     #studio-dpad-cone.right.up {
       transform: rotate(40deg); }
   #studio-dpad-cone.up {
-    border-top-color: #FFD080;
+    border-top-color: #00ccff;
     transform: rotate(0deg); }
   #studio-dpad-cone.down {
-    border-top-color: #FFD080;
+    border-top-color: #1fb4da;
     transform: rotate(180deg); }
 
 #studio-dpad-button {
@@ -298,11 +298,11 @@
   width: 80px;
   height: 80px;
   margin: 36px 5px 5px 36px;
-  border: 1px solid #EFEFEF;
-  background-color: #FFFFFF;
-  box-shadow: 1px 1px 1px 0 #7F7F7F; }
+  border: 1px solid #000000;
+  background-color: #000000;
+  box-shadow: 1px 1px 1px 0 #000000; }
   #studio-dpad-button.active {
-    border: 1px solid #9F9F9F;
+    border: 1px solid #000000;
     box-shadow: none; }
   #studio-dpad-button.left {
     left: -17px; }
